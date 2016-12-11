@@ -145,6 +145,11 @@ Comment Destroy ROute       <!--/campgrounds/:id/comments/:comments_id-->
 
 
 
+## Adding in Flash! 
+* Install and configure connect-flash
+* Add bootstrap alerts to header
+
+
 
 
 
