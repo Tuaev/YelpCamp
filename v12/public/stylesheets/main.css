@@ -1,0 +1,80 @@
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption-full {
+    padding: 10px;
+}
+
+.formSize {
+    width: 40%;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 850px) {
+    .formSize {
+        width: 80%;
+        margin: 50px auto;
+    }
+}
+
+#delete-button {
+    display: inline;
+}
+
+.author {
+    color: #BF4D28;
+    font-weight: 700;
+}
+
+.post-content {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.comment_header {
+    line-height: 1;
+    font-size: 13px;
+    padding-right: 46px;
+    margin-bottom: 3px;
+}
+
+.post-message {
+    line-height: 21px;
+}
+
+.comment_footer {
+    color: #656c7a;
+    margin: 4px 0 0;
+}
+
+.post-body {
+    overflow: hidden;
+}
+
+.avatar {
+    float: left;
+    margin-right: 12px;
+}
+
+.avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+}
+
+.comment_footer .post-footer-buttons {
+    font-size: 13px;
+    border: none;
+    background: none;
+    color: #656c7a;
+    font-weight: 500;
+}
+.post-footer-buttons:hover {
+    color: #000000;
+    text-decoration: underline;
+}
